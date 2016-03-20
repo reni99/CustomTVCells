@@ -12,18 +12,10 @@
 		E2DFA4201C9E9E41007C2B95 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2DFA41E1C9E9E41007C2B95 /* Main.storyboard */; };
 		E2DFA4221C9E9E41007C2B95 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E2DFA4211C9E9E41007C2B95 /* Assets.xcassets */; };
 		E2DFA42D1C9E9E41007C2B95 /* CustomTVCellsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2DFA42C1C9E9E41007C2B95 /* CustomTVCellsTests.swift */; };
-		E2DFA4381C9E9E41007C2B95 /* CustomTVCellsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2DFA4371C9E9E41007C2B95 /* CustomTVCellsUITests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
 		E2DFA4291C9E9E41007C2B95 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = E2DFA40F1C9E9E41007C2B95 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = E2DFA4161C9E9E41007C2B95;
-			remoteInfo = CustomTVCells;
-		};
-		E2DFA4341C9E9E41007C2B95 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = E2DFA40F1C9E9E41007C2B95 /* Project object */;
 			proxyType = 1;
@@ -42,9 +34,6 @@
 		E2DFA4281C9E9E41007C2B95 /* CustomTVCellsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CustomTVCellsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2DFA42C1C9E9E41007C2B95 /* CustomTVCellsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTVCellsTests.swift; sourceTree = "<group>"; };
 		E2DFA42E1C9E9E41007C2B95 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E2DFA4331C9E9E41007C2B95 /* CustomTVCellsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CustomTVCellsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		E2DFA4371C9E9E41007C2B95 /* CustomTVCellsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTVCellsUITests.swift; sourceTree = "<group>"; };
-		E2DFA4391C9E9E41007C2B95 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,13 +51,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E2DFA4301C9E9E41007C2B95 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -77,7 +59,6 @@
 			children = (
 				E2DFA4191C9E9E41007C2B95 /* CustomTVCells */,
 				E2DFA42B1C9E9E41007C2B95 /* CustomTVCellsTests */,
-				E2DFA4361C9E9E41007C2B95 /* CustomTVCellsUITests */,
 				E2DFA4181C9E9E41007C2B95 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -87,7 +68,6 @@
 			children = (
 				E2DFA4171C9E9E41007C2B95 /* CustomTVCells.app */,
 				E2DFA4281C9E9E41007C2B95 /* CustomTVCellsTests.xctest */,
-				E2DFA4331C9E9E41007C2B95 /* CustomTVCellsUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -111,15 +91,6 @@
 				E2DFA42E1C9E9E41007C2B95 /* Info.plist */,
 			);
 			path = CustomTVCellsTests;
-			sourceTree = "<group>";
-		};
-		E2DFA4361C9E9E41007C2B95 /* CustomTVCellsUITests */ = {
-			isa = PBXGroup;
-			children = (
-				E2DFA4371C9E9E41007C2B95 /* CustomTVCellsUITests.swift */,
-				E2DFA4391C9E9E41007C2B95 /* Info.plist */,
-			);
-			path = CustomTVCellsUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -160,24 +131,6 @@
 			productReference = E2DFA4281C9E9E41007C2B95 /* CustomTVCellsTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		E2DFA4321C9E9E41007C2B95 /* CustomTVCellsUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = E2DFA4421C9E9E41007C2B95 /* Build configuration list for PBXNativeTarget "CustomTVCellsUITests" */;
-			buildPhases = (
-				E2DFA42F1C9E9E41007C2B95 /* Sources */,
-				E2DFA4301C9E9E41007C2B95 /* Frameworks */,
-				E2DFA4311C9E9E41007C2B95 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				E2DFA4351C9E9E41007C2B95 /* PBXTargetDependency */,
-			);
-			name = CustomTVCellsUITests;
-			productName = CustomTVCellsUITests;
-			productReference = E2DFA4331C9E9E41007C2B95 /* CustomTVCellsUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -193,10 +146,6 @@
 						DevelopmentTeam = BD7VD67BSV;
 					};
 					E2DFA4271C9E9E41007C2B95 = {
-						CreatedOnToolsVersion = 7.2;
-						TestTargetID = E2DFA4161C9E9E41007C2B95;
-					};
-					E2DFA4321C9E9E41007C2B95 = {
 						CreatedOnToolsVersion = 7.2;
 						TestTargetID = E2DFA4161C9E9E41007C2B95;
 					};
@@ -217,7 +166,6 @@
 			targets = (
 				E2DFA4161C9E9E41007C2B95 /* CustomTVCells */,
 				E2DFA4271C9E9E41007C2B95 /* CustomTVCellsTests */,
-				E2DFA4321C9E9E41007C2B95 /* CustomTVCellsUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -233,13 +181,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		E2DFA4261C9E9E41007C2B95 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E2DFA4311C9E9E41007C2B95 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -266,14 +207,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E2DFA42F1C9E9E41007C2B95 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				E2DFA4381C9E9E41007C2B95 /* CustomTVCellsUITests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -281,11 +214,6 @@
 			isa = PBXTargetDependency;
 			target = E2DFA4161C9E9E41007C2B95 /* CustomTVCells */;
 			targetProxy = E2DFA4291C9E9E41007C2B95 /* PBXContainerItemProxy */;
-		};
-		E2DFA4351C9E9E41007C2B95 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = E2DFA4161C9E9E41007C2B95 /* CustomTVCells */;
-			targetProxy = E2DFA4341C9E9E41007C2B95 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -432,30 +360,6 @@
 			};
 			name = Release;
 		};
-		E2DFA4431C9E9E41007C2B95 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				INFOPLIST_FILE = CustomTVCellsUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = ch.app2tap.CustomTVCellsUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_TARGET_NAME = CustomTVCells;
-				USES_XCTRUNNER = YES;
-			};
-			name = Debug;
-		};
-		E2DFA4441C9E9E41007C2B95 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				INFOPLIST_FILE = CustomTVCellsUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = ch.app2tap.CustomTVCellsUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_TARGET_NAME = CustomTVCells;
-				USES_XCTRUNNER = YES;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -475,6 +379,7 @@
 				E2DFA43E1C9E9E41007C2B95 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E2DFA43F1C9E9E41007C2B95 /* Build configuration list for PBXNativeTarget "CustomTVCellsTests" */ = {
 			isa = XCConfigurationList;
@@ -483,14 +388,7 @@
 				E2DFA4411C9E9E41007C2B95 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-		};
-		E2DFA4421C9E9E41007C2B95 /* Build configuration list for PBXNativeTarget "CustomTVCellsUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				E2DFA4431C9E9E41007C2B95 /* Debug */,
-				E2DFA4441C9E9E41007C2B95 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
