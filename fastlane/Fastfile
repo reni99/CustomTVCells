@@ -1,7 +1,16 @@
 
 
+# Store the current CFBundleVersion and CFBundleShortVersionString in the fastlane context before every lane.
+before_all do
+  cocoapods  
+  ensure_git_status_clean
+  sigh
+  Actions.lane_context[SharedValues::VERSION_NUMBER] = get_version_number
+  Actions.lane_context[SharedValues::BUILD_NUMBER] = get_build_number
+end
+
 lane: Store do
-
-
-
+  commit_version_bump
+  add_git_tag
+  pilot(skip_submission: true)
 end
