@@ -3,9 +3,8 @@ apple_id "reni-@hotmail.com" # Your Apple email address
 
 # You can uncomment any of the lines below and add your own
 # team selection in case you're in multiple teams
-# team_name "Felix Krause"
-# team_id "Q2CBPJ58CA"
-
+team_name "Renato Stauffer"
+team_id "BD7VD67BSV"
 # To select a team for iTunes Connect use
 # itc_team_name "Company Name"
 # itc_team_id "18742801
