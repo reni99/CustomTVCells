@@ -9,7 +9,7 @@ before_all do
   Actions.lane_context[SharedValues::BUILD_NUMBER] = get_build_number
 end
 
-lane: Store do
+lane :Store do
   commit_version_bump
   add_git_tag
   pilot(skip_submission: true)
