@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		2E484815D07AE18D8B2F1CA5 /* Pods_CustomTVCells.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE3965D7BBA907887AD1450C /* Pods_CustomTVCells.framework */; };
+		E206D42B1C9EBC5800D2A4D3 /* Pods_CustomTVCells.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E206D42A1C9EBC5800D2A4D3 /* Pods_CustomTVCells.framework */; };
 		E2DFA41B1C9E9E41007C2B95 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2DFA41A1C9E9E41007C2B95 /* AppDelegate.swift */; };
 		E2DFA41D1C9E9E41007C2B95 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2DFA41C1C9E9E41007C2B95 /* ViewController.swift */; };
 		E2DFA4201C9E9E41007C2B95 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2DFA41E1C9E9E41007C2B95 /* Main.storyboard */; };
@@ -27,6 +28,8 @@
 
 /* Begin PBXFileReference section */
 		CE3965D7BBA907887AD1450C /* Pods_CustomTVCells.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CustomTVCells.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E206D4281C9EBC3000D2A4D3 /* Pods_CustomTVCells.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Pods_CustomTVCells.framework; path = "Pods/../build/Debug-appletvos/Pods_CustomTVCells.framework"; sourceTree = "<group>"; };
+		E206D42A1C9EBC5800D2A4D3 /* Pods_CustomTVCells.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Pods_CustomTVCells.framework; path = "Pods/../build/Debug-appletvos/Pods_CustomTVCells.framework"; sourceTree = "<group>"; };
 		E2DFA4171C9E9E41007C2B95 /* CustomTVCells.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomTVCells.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2DFA41A1C9E9E41007C2B95 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E2DFA41C1C9E9E41007C2B95 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -53,6 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E206D42B1C9EBC5800D2A4D3 /* Pods_CustomTVCells.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,6 +66,8 @@
 		D0C516E3F8241546B19B8063 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				E206D42A1C9EBC5800D2A4D3 /* Pods_CustomTVCells.framework */,
+				E206D4281C9EBC3000D2A4D3 /* Pods_CustomTVCells.framework */,
 				CE3965D7BBA907887AD1450C /* Pods_CustomTVCells.framework */,
 			);
 			name = Frameworks;
@@ -419,6 +425,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-appletvos",
+				);
 				INFOPLIST_FILE = CustomTVCellsTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ch.app2tap.CustomTVCellsTests;
@@ -431,6 +441,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-appletvos",
+				);
 				INFOPLIST_FILE = CustomTVCellsTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ch.app2tap.CustomTVCellsTests;
