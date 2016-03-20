@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		2E484815D07AE18D8B2F1CA5 /* Pods_CustomTVCells.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE3965D7BBA907887AD1450C /* Pods_CustomTVCells.framework */; };
-		E206D42B1C9EBC5800D2A4D3 /* Pods_CustomTVCells.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E206D42A1C9EBC5800D2A4D3 /* Pods_CustomTVCells.framework */; };
 		E2DFA41B1C9E9E41007C2B95 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2DFA41A1C9E9E41007C2B95 /* AppDelegate.swift */; };
 		E2DFA41D1C9E9E41007C2B95 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2DFA41C1C9E9E41007C2B95 /* ViewController.swift */; };
 		E2DFA4201C9E9E41007C2B95 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2DFA41E1C9E9E41007C2B95 /* Main.storyboard */; };
@@ -56,7 +55,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E206D42B1C9EBC5800D2A4D3 /* Pods_CustomTVCells.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
