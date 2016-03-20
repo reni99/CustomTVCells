@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="fastlane.lanes">
+    
+      
+      <testcase classname="fastlane.lanes" name="0: cocoapods" time="7.621458">
+        
+      </testcase>
+    
+      
+      <testcase classname="fastlane.lanes" name="1: ensure_git_status_clean" time="0.027243">
+        
+      </testcase>
+    
+      
+      <testcase classname="fastlane.lanes" name="2: sigh" time="10.69394">
+        
+      </testcase>
+    
+      
+      <testcase classname="fastlane.lanes" name="3: increment_build_number" time="2.722591">
+        
+      </testcase>
+    
+      
+      <testcase classname="fastlane.lanes" name="4: get_version_number" time="0.727362">
+        
+      </testcase>
+    
+      
+      <testcase classname="fastlane.lanes" name="5: commit_version_bump" time="0.768517">
+        
+      </testcase>
+    
+      
+      <testcase classname="fastlane.lanes" name="6: add_git_tag" time="0.019474">
+        
+      </testcase>
+    
+      
+      <testcase classname="fastlane.lanes" name="7: pilot" time="3.316213">
+        
+          <failure message="/usr/local/lib/ruby/gems/2.1.0/gems/fastlane-1.66.0/lib/fastlane/actions/actions_helper.rb:33:in `execute_action'&#10;/usr/local/lib/ruby/gems/2.1.0/gems/fastlane-1.66.0/lib/fastlane/runner.rb:129:in `block in execute_action'&#10;/usr/local/lib/ruby/gems/2.1.0/gems/fastlane-1.66.0/lib/fastlane/runner.rb:128:in `chdir'&#10;/usr/local/lib/ruby/gems/2.1.0/gems/fastlane-1.66.0/lib/fastlane/runner.rb:128:in `execute_action'&#10;/usr/local/lib/ruby/gems/2.1.0/gems/fastlane-1.66.0/lib/fastlane/fast_file.rb:149:in `method_missing'&#10;Fastfile:15:in `block in parsing_binding'&#10;/usr/local/lib/ruby/gems/2.1.0/gems/fastlane-1.66.0/lib/fastlane/lane.rb:36:in `call'&#10;/usr/local/lib/ruby/gems/2.1.0/gems/fastlane-1.66.0/lib/fastlane/lane.rb:36:in `call'&#10;/usr/local/lib/ruby/gems/2.1.0/gems/fastlane-1.66.0/lib/fastlane/runner.rb:52:in `block in execute'&#10;/usr/local/lib/ruby/gems/2.1.0/gems/fastlane-1.66.0/lib/fastlane/runner.rb:46:in `chdir'&#10;/usr/local/lib/ruby/gems/2.1.0/gems/fastlane-1.66.0/lib/fastlane/runner.rb:46:in `execute'&#10;/usr/local/lib/ruby/gems/2.1.0/gems/fastlane-1.66.0/lib/fastlane/lane_manager.rb:46:in `cruise_lane'&#10;/usr/local/lib/ruby/gems/2.1.0/gems/fastlane-1.66.0/lib/fastlane/command_line_handler.rb:30:in `handle'&#10;/usr/local/lib/ruby/gems/2.1.0/gems/fastlane-1.66.0/bin/fastlane:38:in `block (2 levels) in run'&#10;/usr/local/lib/ruby/gems/2.1.0/gems/commander-4.3.5/lib/commander/command.rb:178:in `call'&#10;/usr/local/lib/ruby/gems/2.1.0/gems/commander-4.3.5/lib/commander/command.rb:178:in `call'&#10;/usr/local/lib/ruby/gems/2.1.0/gems/commander-4.3.5/lib/commander/command.rb:153:in `run'&#10;/usr/local/lib/ruby/gems/2.1.0/gems/commander-4.3.5/lib/commander/runner.rb:428:in `run_active_command'&#10;/usr/local/lib/ruby/gems/2.1.0/gems/fastlane_core-0.39.0/lib/fastlane_core/ui/fastlane_runner.rb:23:in `run!'&#10;/usr/local/lib/ruby/gems/2.1.0/gems/commander-4.3.5/lib/commander/delegates.rb:15:in `run!'&#10;/usr/local/lib/ruby/gems/2.1.0/gems/fastlane-1.66.0/bin/fastlane:156:in `run'&#10;/usr/local/lib/ruby/gems/2.1.0/gems/fastlane-1.66.0/bin/fastlane:162:in `&lt;top (required)&gt;'&#10;/usr/local/bin/fastlane:23:in `load'&#10;/usr/local/bin/fastlane:23:in `&lt;main&gt;'&#10;&#10;[31mNo ipa file given[0m" />
+        
+      </testcase>
+    
+  </testsuite>
+</testsuites>
