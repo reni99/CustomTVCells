@@ -17,5 +17,11 @@ profile
 DerivedData
 .idea/
 # Pods - for those of you who use CocoaPods
-Pods
+/Pods
+/Podfile.lock
 CustomTVCells.xcworkspace/xcuserdata/renatostauffer.xcuserdatad/UserInterfaceState.xcuserstate
+fastlane/report.xml
+fastlane/screenshots
+*.ipa
+*.zip
+

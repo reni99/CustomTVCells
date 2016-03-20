@@ -1,6 +1,0 @@
-framework module Pods_CustomTVCells {
-  umbrella header "Pods-CustomTVCells-umbrella.h"
-
-  export *
-  module * { export * }
-}
