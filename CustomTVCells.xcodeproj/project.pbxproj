@@ -428,6 +428,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ch.app2tap.CustomTVCellsTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "c40e8ed6-a3b2-429e-96f8-c07fbb8638b0";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CustomTVCells.app/CustomTVCells";
 			};
 			name = Debug;
@@ -441,6 +442,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ch.app2tap.CustomTVCellsTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "c40e8ed6-a3b2-429e-96f8-c07fbb8638b0";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CustomTVCells.app/CustomTVCells";
 			};
 			name = Release;
