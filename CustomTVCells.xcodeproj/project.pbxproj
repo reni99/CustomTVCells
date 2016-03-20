@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2E484815D07AE18D8B2F1CA5 /* Pods_CustomTVCells.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE3965D7BBA907887AD1450C /* Pods_CustomTVCells.framework */; };
 		E2DFA41B1C9E9E41007C2B95 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2DFA41A1C9E9E41007C2B95 /* AppDelegate.swift */; };
 		E2DFA41D1C9E9E41007C2B95 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2DFA41C1C9E9E41007C2B95 /* ViewController.swift */; };
 		E2DFA4201C9E9E41007C2B95 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2DFA41E1C9E9E41007C2B95 /* Main.storyboard */; };
@@ -25,6 +26,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CE3965D7BBA907887AD1450C /* Pods_CustomTVCells.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CustomTVCells.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2DFA4171C9E9E41007C2B95 /* CustomTVCells.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomTVCells.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2DFA41A1C9E9E41007C2B95 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E2DFA41C1C9E9E41007C2B95 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -34,6 +36,8 @@
 		E2DFA4281C9E9E41007C2B95 /* CustomTVCellsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CustomTVCellsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2DFA42C1C9E9E41007C2B95 /* CustomTVCellsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTVCellsTests.swift; sourceTree = "<group>"; };
 		E2DFA42E1C9E9E41007C2B95 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F5F5657D1520DDD5E1D46931 /* Pods-CustomTVCells.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CustomTVCells.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CustomTVCells/Pods-CustomTVCells.debug.xcconfig"; sourceTree = "<group>"; };
+		F6CDE710B045686583DD9437 /* Pods-CustomTVCells.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CustomTVCells.release.xcconfig"; path = "Pods/Target Support Files/Pods-CustomTVCells/Pods-CustomTVCells.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +45,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2E484815D07AE18D8B2F1CA5 /* Pods_CustomTVCells.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -54,12 +59,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D0C516E3F8241546B19B8063 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CE3965D7BBA907887AD1450C /* Pods_CustomTVCells.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D6E08134D849095D062321B4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F5F5657D1520DDD5E1D46931 /* Pods-CustomTVCells.debug.xcconfig */,
+				F6CDE710B045686583DD9437 /* Pods-CustomTVCells.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		E2DFA40E1C9E9E41007C2B95 = {
 			isa = PBXGroup;
 			children = (
 				E2DFA4191C9E9E41007C2B95 /* CustomTVCells */,
 				E2DFA42B1C9E9E41007C2B95 /* CustomTVCellsTests */,
 				E2DFA4181C9E9E41007C2B95 /* Products */,
+				D6E08134D849095D062321B4 /* Pods */,
+				D0C516E3F8241546B19B8063 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -100,9 +124,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E2DFA43C1C9E9E41007C2B95 /* Build configuration list for PBXNativeTarget "CustomTVCells" */;
 			buildPhases = (
+				9C869CEBEA0112F1E75A2376 /* Check Pods Manifest.lock */,
 				E2DFA4131C9E9E41007C2B95 /* Sources */,
 				E2DFA4141C9E9E41007C2B95 /* Frameworks */,
 				E2DFA4151C9E9E41007C2B95 /* Resources */,
+				FA63147F243C233828945EC6 /* Embed Pods Frameworks */,
+				A3A196036AD7251F42D0572A /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -188,6 +215,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		9C869CEBEA0112F1E75A2376 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A3A196036AD7251F42D0572A /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CustomTVCells/Pods-CustomTVCells-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FA63147F243C233828945EC6 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CustomTVCells/Pods-CustomTVCells-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		E2DFA4131C9E9E41007C2B95 /* Sources */ = {
@@ -312,27 +387,31 @@
 		};
 		E2DFA43D1C9E9E41007C2B95 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F5F5657D1520DDD5E1D46931 /* Pods-CustomTVCells.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = CustomTVCells/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = ch.app2tap.CustomTVCells;
+				PRODUCT_BUNDLE_IDENTIFIER = com.app2tap.customtvcells;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "c40e8ed6-a3b2-429e-96f8-c07fbb8638b0";
 			};
 			name = Debug;
 		};
 		E2DFA43E1C9E9E41007C2B95 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F6CDE710B045686583DD9437 /* Pods-CustomTVCells.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Renato Stauffer (BD7VD67BSV)";
 				INFOPLIST_FILE = CustomTVCells/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = ch.app2tap.CustomTVCells;
+				PRODUCT_BUNDLE_IDENTIFIER = com.app2tap.customtvcells;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "c40e8ed6-a3b2-429e-96f8-c07fbb8638b0";
 			};
 			name = Release;
 		};
